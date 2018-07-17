@@ -1,0 +1,81 @@
+[0m[[0m[0minfo[0m] [0m[0mscalastyle using config /home/knoldus/Documents/TDD/scalastyle-config.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mStarting scalastyle[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/ArithmaticDemo.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/ArithmaticDemo.scala:1: Header does not match expected text[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/ArithmaticDemo.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Queue.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Queue.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Queue.scala:8:6: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Queue.scala:19:4: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Queue.scala:7:4: If block needs braces[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Queue.scala: File must end with newline character[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Queue.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FirstName.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FirstName.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FirstName.scala:18:42: There should be a space after the plus (+) sign[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FirstName.scala:18:22: There should be a space before the plus (+) sign[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FirstName.scala:18:37: There should be a space before the plus (+) sign[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FirstName.scala:24:18: Magic Number[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FirstName.scala:18:4: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FirstName.scala:19:11: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FirstName.scala:25:5: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FirstName.scala:5:15: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FirstName.scala:9:15: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FirstName.scala:13:15: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FirstName.scala:17:6: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FirstName.scala: File must end with newline character[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FirstName.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/HigherOderFunctionDemo.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/HigherOderFunctionDemo.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/HigherOderFunctionDemo.scala:32:82: Magic Number[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/HigherOderFunctionDemo.scala:32:85: Magic Number[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/HigherOderFunctionDemo.scala:35:77: Magic Number[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/HigherOderFunctionDemo.scala:35:80: Magic Number[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/HigherOderFunctionDemo.scala:38:77: Magic Number[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/HigherOderFunctionDemo.scala:38:80: Magic Number[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/HigherOderFunctionDemo.scala:33:6: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/HigherOderFunctionDemo.scala:36:7: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/HigherOderFunctionDemo.scala:39:6: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/HigherOderFunctionDemo.scala:40:9: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/HigherOderFunctionDemo.scala: File must end with newline character[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/HigherOderFunctionDemo.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala:10:17: There should be a space after the plus (+) sign[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala:11:9: There should be a space after the plus (+) sign[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala:14:17: There should be a space after the plus (+) sign[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala:15:16: There should be a space after the plus (+) sign[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala:15:20: There should be a space after the plus (+) sign[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala:10:17: There should be a space before the plus (+) sign[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala:11:9: There should be a space before the plus (+) sign[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala:14:17: There should be a space before the plus (+) sign[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala:15:16: There should be a space before the plus (+) sign[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala:15:20: There should be a space before the plus (+) sign[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala:20:10: Magic Number[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala:6:4: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala:7:4: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala:10:8: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala:14:8: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala: File must end with newline character[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/TestQueue.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/TestQueue.scala:1: Header does not match expected text[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/TestQueue.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Person.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Person.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Person.scala:13:30: Magic Number[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Person.scala:14:30: Magic Number[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Person.scala:15:2: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Person.scala:7:4: If block needs braces[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Person.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Area.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Area.scala:1: Header does not match expected text[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Area.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/knoldus/Documents/TDD/src/main/scala/com/knoldus/akhilesh/ArithmaticDemo.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/akhilesh/ArithmaticDemo.scala:1: Header does not match expected text[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/knoldus/Documents/TDD/src/main/scala/com/knoldus/akhilesh/ArithmaticDemo.scala[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Processed 9 file(s)[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 errors[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 56 warnings[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 infos[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Finished in 31 ms[0m

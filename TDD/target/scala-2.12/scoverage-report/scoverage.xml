@@ -1,0 +1,36 @@
+<scoverage 
+statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00" version="1.0" timestamp="1531386325140">
+    <packages>
+        <package name="com.knoldus.akhilesh" statement-count="4" statements-invoked="4" statement-rate="100.00">
+            <classes>
+                <class 
+                name="com.knoldus.akhilesh.ArithmaticDemo" filename="com/knoldus/akhilesh/ArithmaticDemo.scala" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.akhilesh/ArithmaticDemo/division" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.akhilesh" class="ArithmaticDemo" class-type="Class" full-class-name="com.knoldus.akhilesh.ArithmaticDemo" source="/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/akhilesh/ArithmaticDemo.scala" method="division" start="210" end="224" line="14" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.akhilesh" class="ArithmaticDemo" class-type="Class" full-class-name="com.knoldus.akhilesh.ArithmaticDemo" source="/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/akhilesh/ArithmaticDemo.scala" method="division" start="231" end="252" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.akhilesh" class="ArithmaticDemo" class-type="Class" full-class-name="com.knoldus.akhilesh.ArithmaticDemo" source="/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/akhilesh/ArithmaticDemo.scala" method="division" start="202" end="225" line="14" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.akhilesh/ArithmaticDemo/add" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.akhilesh" class="ArithmaticDemo" class-type="Class" full-class-name="com.knoldus.akhilesh.ArithmaticDemo" source="/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/akhilesh/ArithmaticDemo.scala" method="add" start="112" end="136" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Person.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="30" line="13" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="30" line="14" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="2" line="15" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="4" line="7" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+ </file>
+ <file name="/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FabonicSeries.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="17" line="10" source="org.scalastyle.scalariform.SpacesAfterPlusChecker" severity="warning" message="There should be a space after the plus (+) sign"/>
+  <error column="9" line="11" source="org.scalastyle.scalariform.SpacesAfterPlusChecker" severity="warning" message="There should be a space after the plus (+) sign"/>
+  <error column="17" line="14" source="org.scalastyle.scalariform.SpacesAfterPlusChecker" severity="warning" message="There should be a space after the plus (+) sign"/>
+  <error column="16" line="15" source="org.scalastyle.scalariform.SpacesAfterPlusChecker" severity="warning" message="There should be a space after the plus (+) sign"/>
+  <error column="20" line="15" source="org.scalastyle.scalariform.SpacesAfterPlusChecker" severity="warning" message="There should be a space after the plus (+) sign"/>
+  <error column="17" line="10" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error column="9" line="11" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error column="17" line="14" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error column="16" line="15" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error column="20" line="15" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error column="10" line="20" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="4" line="6" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="4" line="7" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="8" line="10" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="8" line="14" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+ </file>
+ <file name="/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/ArithmaticDemo.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+ </file>
+ <file name="/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/akhilesh/ArithmaticDemo.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+ </file>
+ <file name="/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Area.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+ </file>
+ <file name="/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/Queue.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="6" line="8" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="4" line="19" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="4" line="7" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+ </file>
+ <file name="/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/FirstName.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="42" line="18" source="org.scalastyle.scalariform.SpacesAfterPlusChecker" severity="warning" message="There should be a space after the plus (+) sign"/>
+  <error column="22" line="18" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error column="37" line="18" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error column="18" line="24" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="4" line="18" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="11" line="19" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="5" line="25" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="15" line="5" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="15" line="9" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="15" line="13" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="17" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+ </file>
+ <file name="/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/HigherOderFunctionDemo.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="82" line="32" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="85" line="32" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="77" line="35" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="80" line="35" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="77" line="38" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="80" line="38" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="6" line="33" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="7" line="36" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="6" line="39" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="9" line="40" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+ </file>
+ <file name="/home/knoldus/Documents/TDD/src/main/scala/com/knoldus/TDDAssigmnet/TestQueue.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+ </file>
+</checkstyle>

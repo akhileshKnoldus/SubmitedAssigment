@@ -1,0 +1,5 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mArithmaticDemoSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Add 2 Valid Integer[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Numerator/Denominator both are Positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Divide by Zero[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Numerator/Denominator and Denominator is not equal to Zero[0m[0m
