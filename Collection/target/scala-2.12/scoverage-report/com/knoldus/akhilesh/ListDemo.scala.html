@@ -1,0 +1,202 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          com/knoldus/akhilesh/ListDemo.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>package  com.knoldus.akhilesh
+</span>2 <span style=''>
+</span>3 <span style=''>class ListDemo {
+</span>4 <span style=''>
+</span>5 <span style=''>  val list=</span><span style='background: #AEF1AE'>List.range(0,11)</span><span style=''>
+</span>6 <span style=''>
+</span>7 <span style=''>  def multiplicationOfElement(num:Int):List[Int]={
+</span>8 <span style=''>
+</span>9 <span style=''>    var modifiedList=</span><span style='background: #AEF1AE'>list.map(_* num)</span><span style=''>
+</span>10 <span style=''>    //print(modifiedList)
+</span>11 <span style=''>    modifiedList
+</span>12 <span style=''>
+</span>13 <span style=''>  }
+</span>14 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          5
+        </td>
+        <td>
+          17
+        </td>
+        <td>
+          73
+          -
+          75
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          11
+        </td>
+      </tr><tr>
+        <td>
+          5
+        </td>
+        <td>
+          16
+        </td>
+        <td>
+          71
+          -
+          72
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          0
+        </td>
+      </tr><tr>
+        <td>
+          5
+        </td>
+        <td>
+          19
+        </td>
+        <td>
+          60
+          -
+          76
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          scala.collection.generic.GenTraversableFactory.range
+        </td>
+        <td style="background: #AEF1AE">
+          scala.collection.immutable.List.range[Int](0, 11)(math.this.Numeric.IntIsIntegral)
+        </td>
+      </tr><tr>
+        <td>
+          5
+        </td>
+        <td>
+          18
+        </td>
+        <td>
+          70
+          -
+          70
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          scala.math.Numeric.IntIsIntegral
+        </td>
+        <td style="background: #AEF1AE">
+          math.this.Numeric.IntIsIntegral
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          20
+        </td>
+        <td>
+          160
+          -
+          166
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.*
+        </td>
+        <td style="background: #AEF1AE">
+          x$1.*(num)
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          22
+        </td>
+        <td>
+          151
+          -
+          167
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          scala.collection.immutable.List.map
+        </td>
+        <td style="background: #AEF1AE">
+          ListDemo.this.list.map[Int, List[Int]](((x$1: Int) =&gt; x$1.*(num)))(immutable.this.List.canBuildFrom[Int])
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          21
+        </td>
+        <td>
+          159
+          -
+          159
+        </td>
+        <td>
+          TypeApply
+        </td>
+        <td>
+          scala.collection.immutable.List.canBuildFrom
+        </td>
+        <td style="background: #AEF1AE">
+          immutable.this.List.canBuildFrom[Int]
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

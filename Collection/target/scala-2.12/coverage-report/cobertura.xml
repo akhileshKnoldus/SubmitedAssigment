@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage 
+line-rate="0.79" lines-valid="39" lines-covered="31" branches-valid="0" branches-covered="0" branch-rate="1.00" complexity="0" version="1.0" timestamp="1531739178049">
+    <sources>
+        <source>--source</source>
+        <source>/home/knoldus/Documents/Collection/src/main/scala</source>
+    </sources>
+    <packages>
+        <package name="com.knoldus.akhilesh" line-rate="0.79" branch-rate="1.00" complexity="0">
+            <classes>
+                <class 
+                name="com.knoldus.akhilesh.FrequencyOfCharacter" filename="com/knoldus/akhilesh/FrequencyOfCharacter.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method 
+                        name="com.knoldus.akhilesh/FrequencyOfCharacter/countCharcter" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="29" hits="1" branch="false"/>
+                                <line number="29" hits="1" branch="false"/>
+                                <line number="29" hits="1" branch="false"/>
+                                <line number="29" hits="1" branch="false"/>
+                            </lines>
+</method>
+                    </methods>
+                    <lines>
+                        <line number="29" hits="1" branch="false"/>
+                        <line number="29" hits="1" branch="false"/>
+                        <line number="29" hits="1" branch="false"/>
+                        <line number="29" hits="1" branch="false"/>
+                    </lines>
+</class>
+                <class 
+                name="com.knoldus.akhilesh.EmployeeInfo" filename="com/knoldus/akhilesh/EmployeeInfo.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method 
+                        name="com.knoldus.akhilesh/EmployeeInfo/empDetail" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="7" hits="1" branch="false"/>
+                                <line number="7" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method 
+                        name="com.knoldus.akhilesh/EmployeeInfo/reviseSalary" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="14" hits="1" branch="false"/>
+                                <line number="12" hits="1" branch="false"/>
+                                <line number="14" hits="1" branch="false"/>
+                                <line number="13" hits="1" branch="false"/>
+                                <line number="14" hits="1" branch="false"/>
+                                <line number="15" hits="1" branch="false"/>
+                                <line number="15" hits="1" branch="false"/>
+                                <line number="13" hits="1" branch="false"/>
+                                <line number="14" hits="1" branch="false"/>
+                            </lines>
+</method>
+                    </methods>
+                    <lines>
+                        <line number="14" hits="1" branch="false"/>
+                        <line number="12" hits="1" branch="false"/>
+                        <line number="7" hits="1" branch="false"/>
+                        <line number="14" hits="1" branch="false"/>
+                        <line number="13" hits="1" branch="false"/>
+                        <line number="14" hits="1" branch="false"/>
+                        <line number="15" hits="1" branch="false"/>
+                        <line number="7" hits="1" branch="false"/>
+                        <line number="15" hits="1" branch="false"/>
+                        <line number="13" hits="1" branch="false"/>
+                        <line number="14" hits="1" branch="false"/>
+                    </lines>
+</class>
+                <class 
+                name="com.knoldus.akhilesh.ListDemo" filename="com/knoldus/akhilesh/ListDemo.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method 
+                        name="com.knoldus.akhilesh/ListDemo/&lt;none&gt;" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="5" hits="1" branch="false"/>
+                                <line number="5" hits="1" branch="false"/>
+                                <line number="5" hits="1" branch="false"/>
+                                <line number="5" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method 
+                        name="com.knoldus.akhilesh/ListDemo/multiplicationOfElement" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="9" hits="1" branch="false"/>
+                                <line number="9" hits="1" branch="false"/>
+                                <line number="9" hits="1" branch="false"/>
+                            </lines>
+</method>
+                    </methods>
+                    <lines>
+                        <line number="5" hits="1" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="5" hits="1" branch="false"/>
+                        <line number="5" hits="1" branch="false"/>
+                        <line number="5" hits="1" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                    </lines>
+</class>
+                <class 
+                name="com.knoldus.akhilesh.MaximumElement" filename="com/knoldus/akhilesh/MaximumElement.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method 
+                        name="com.knoldus.akhilesh/MaximumElement/&lt;none&gt;" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="5" hits="1" branch="false"/>
+                                <line number="5" hits="1" branch="false"/>
+                                <line number="5" hits="1" branch="false"/>
+                                <line number="5" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method 
+                        name="com.knoldus.akhilesh/MaximumElement/firstFiveMaxElement" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="13" hits="1" branch="false"/>
+                                <line number="13" hits="1" branch="false"/>
+                                <line number="10" hits="1" branch="false"/>
+                                <line number="10" hits="1" branch="false"/>
+                                <line number="13" hits="1" branch="false"/>
+                            </lines>
+</method>
+                    </methods>
+                    <lines>
+                        <line number="5" hits="1" branch="false"/>
+                        <line number="5" hits="1" branch="false"/>
+                        <line number="13" hits="1" branch="false"/>
+                        <line number="13" hits="1" branch="false"/>
+                        <line number="5" hits="1" branch="false"/>
+                        <line number="10" hits="1" branch="false"/>
+                        <line number="10" hits="1" branch="false"/>
+                        <line number="13" hits="1" branch="false"/>
+                        <line number="5" hits="1" branch="false"/>
+                    </lines>
+</class>
+                <class 
+                name="com.knoldus.akhilesh.Test" filename="com/knoldus/akhilesh/Test.scala" line-rate="0.00" branch-rate="0.00" complexity="0">
+                    <methods>
+                        <method name="com.knoldus.akhilesh/Test/main" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
+                            <lines>
+                                <line number="5" hits="0" branch="false"/>
+                                <line number="9" hits="0" branch="false"/>
+                                <line number="14" hits="0" branch="false"/>
+                                <line number="7" hits="0" branch="false"/>
+                                <line number="12" hits="0" branch="false"/>
+                                <line number="10" hits="0" branch="false"/>
+                                <line number="14" hits="0" branch="false"/>
+                                <line number="6" hits="0" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="5" hits="0" branch="false"/>
+                        <line number="9" hits="0" branch="false"/>
+                        <line number="14" hits="0" branch="false"/>
+                        <line number="7" hits="0" branch="false"/>
+                        <line number="12" hits="0" branch="false"/>
+                        <line number="10" hits="0" branch="false"/>
+                        <line number="14" hits="0" branch="false"/>
+                        <line number="6" hits="0" branch="false"/>
+                    </lines>
+</class>
+            </classes>
+        </package>
+    </packages>
+</coverage>
