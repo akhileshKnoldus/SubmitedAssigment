@@ -1,0 +1,725 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          Area.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>class Area {
+</span>2 <span style=''>
+</span>3 <span style=''>  def area(shape: String, first: Int, second: Int, f:(Int,Int) =&gt; Int):String = {
+</span>4 <span style=''>
+</span>5 <span style=''>    if(</span><span style='background: #AEF1AE'>first &gt; 0 &amp;&amp; second &gt;0</span><span style=''>) {
+</span>6 <span style=''>
+</span>7 <span style=''>      </span><span style='background: #AEF1AE'>shape match {
+</span>8 <span style=''></span><span style='background: #AEF1AE'>        case &quot;rectangle&quot; =&gt; s&quot;Area of $shape is ${f(first, second).toString}&quot;
+</span>9 <span style=''></span><span style='background: #AEF1AE'>        case &quot;square&quot; =&gt; if (first != second) &quot;not defined yet for square&quot; else s&quot;Area of $shape is ${f(first, second).toString}&quot;
+</span>10 <span style=''></span><span style='background: #AEF1AE'>        case &quot;parallelogram&quot; =&gt; s&quot;Area of $shape is ${f(first, second).toString}&quot;
+</span>11 <span style=''></span><span style='background: #AEF1AE'>        case &quot;rhombus&quot; =&gt; s&quot;Area of $shape is ${f(first, second).toString}&quot;
+</span>12 <span style=''></span><span style='background: #AEF1AE'>        case _ =&gt; s&quot;$shape is not defined&quot;
+</span>13 <span style=''></span><span style='background: #AEF1AE'>      }</span><span style=''>
+</span>14 <span style=''>    }
+</span>15 <span style=''>    else </span><span style='background: #AEF1AE'>throw new ArithmeticException()</span><span style=''>
+</span>16 <span style=''>  }
+</span>17 <span style=''>
+</span>18 <span style=''>  // println(area(&quot;square&quot;, 4, 5, (x,y) =&gt; x*y))
+</span>19 <span style=''>  // println(area(&quot;rectangle&quot;, 4, 5, (x,y) =&gt; x*y))
+</span>20 <span style=''>  // println(area(&quot;parallelogram&quot;, 4, 5, (x,y) =&gt; x*y))
+</span>21 <span style=''>  // println(area(&quot;rhombus&quot;, 4, 5, (x,y) =&gt; x*y))
+</span>22 <span style=''>  // println(area(&quot;circle&quot;, 4, 5, (x,y) =&gt; x*y))
+</span>23 <span style=''>
+</span>24 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          5
+        </td>
+        <td>
+          2
+        </td>
+        <td>
+          117
+          -
+          126
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          second.&gt;(0)
+        </td>
+      </tr><tr>
+        <td>
+          5
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          112
+          -
+          113
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          0
+        </td>
+      </tr><tr>
+        <td>
+          5
+        </td>
+        <td>
+          3
+        </td>
+        <td>
+          104
+          -
+          126
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Boolean.&amp;&amp;
+        </td>
+        <td style="background: #AEF1AE">
+          first.&gt;(0).&amp;&amp;(second.&gt;(0))
+        </td>
+      </tr><tr>
+        <td>
+          7
+        </td>
+        <td>
+          29
+        </td>
+        <td>
+          137
+          -
+          567
+        </td>
+        <td>
+          Match
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          shape match {
+  case &quot;rectangle&quot; =&gt; scala.StringContext.apply(&quot;Area of &quot;, &quot; is &quot;, &quot;&quot;).s(shape, f.apply(first, second).toString())
+  case &quot;square&quot; =&gt; if (first.!=(second))
+    &quot;not defined yet for square&quot;
+  else
+    scala.StringContext.apply(&quot;Area of &quot;, &quot; is &quot;, &quot;&quot;).s(shape, f.apply(first, second).toString())
+  case &quot;parallelogram&quot; =&gt; scala.StringContext.apply(&quot;Area of &quot;, &quot; is &quot;, &quot;&quot;).s(shape, f.apply(first, second).toString())
+  case &quot;rhombus&quot; =&gt; scala.StringContext.apply(&quot;Area of &quot;, &quot; is &quot;, &quot;&quot;).s(shape, f.apply(first, second).toString())
+  case _ =&gt; scala.StringContext.apply(&quot;&quot;, &quot; is not defined&quot;).s(shape)
+}
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          8
+        </td>
+        <td>
+          179
+          -
+          228
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;Area of &quot;, &quot; is &quot;, &quot;&quot;).s(shape, f.apply(first, second).toString())
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          5
+        </td>
+        <td>
+          195
+          -
+          200
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot; is &quot;
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          4
+        </td>
+        <td>
+          181
+          -
+          190
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Area of &quot;
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          7
+        </td>
+        <td>
+          201
+          -
+          226
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Any.toString
+        </td>
+        <td style="background: #AEF1AE">
+          f.apply(first, second).toString()
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          6
+        </td>
+        <td>
+          227
+          -
+          228
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;&quot;
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          17
+        </td>
+        <td>
+          309
+          -
+          358
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;Area of &quot;, &quot; is &quot;, &quot;&quot;).s(shape, f.apply(first, second).toString())
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          11
+        </td>
+        <td>
+          275
+          -
+          303
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;not defined yet for square&quot;
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          14
+        </td>
+        <td>
+          357
+          -
+          358
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;&quot;
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          13
+        </td>
+        <td>
+          325
+          -
+          330
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot; is &quot;
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          16
+        </td>
+        <td>
+          309
+          -
+          358
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;Area of &quot;, &quot; is &quot;, &quot;&quot;).s(shape, f.apply(first, second).toString())
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          10
+        </td>
+        <td>
+          275
+          -
+          303
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;not defined yet for square&quot;
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          9
+        </td>
+        <td>
+          258
+          -
+          273
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.!=
+        </td>
+        <td style="background: #AEF1AE">
+          first.!=(second)
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          12
+        </td>
+        <td>
+          311
+          -
+          320
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Area of &quot;
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          15
+        </td>
+        <td>
+          331
+          -
+          356
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Any.toString
+        </td>
+        <td style="background: #AEF1AE">
+          f.apply(first, second).toString()
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          20
+        </td>
+        <td>
+          439
+          -
+          440
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;&quot;
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          22
+        </td>
+        <td>
+          391
+          -
+          440
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;Area of &quot;, &quot; is &quot;, &quot;&quot;).s(shape, f.apply(first, second).toString())
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          19
+        </td>
+        <td>
+          407
+          -
+          412
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot; is &quot;
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          18
+        </td>
+        <td>
+          393
+          -
+          402
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Area of &quot;
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          21
+        </td>
+        <td>
+          413
+          -
+          438
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Any.toString
+        </td>
+        <td style="background: #AEF1AE">
+          f.apply(first, second).toString()
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          23
+        </td>
+        <td>
+          469
+          -
+          478
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Area of &quot;
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          26
+        </td>
+        <td>
+          489
+          -
+          514
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Any.toString
+        </td>
+        <td style="background: #AEF1AE">
+          f.apply(first, second).toString()
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          25
+        </td>
+        <td>
+          515
+          -
+          516
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;&quot;
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          27
+        </td>
+        <td>
+          467
+          -
+          516
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;Area of &quot;, &quot; is &quot;, &quot;&quot;).s(shape, f.apply(first, second).toString())
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          24
+        </td>
+        <td>
+          483
+          -
+          488
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot; is &quot;
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          28
+        </td>
+        <td>
+          535
+          -
+          559
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;&quot;, &quot; is not defined&quot;).s(shape)
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          31
+        </td>
+        <td>
+          583
+          -
+          614
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          throw new java.lang.ArithmeticException()
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          30
+        </td>
+        <td>
+          583
+          -
+          614
+        </td>
+        <td>
+          Throw
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          throw new java.lang.ArithmeticException()
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

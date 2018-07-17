@@ -1,0 +1,412 @@
+<scoverage 
+statement-count="101" statements-invoked="90" statement-rate="89.11" branch-rate="87.50" version="1.0" timestamp="1531484208742">
+    <packages>
+        <package name="&lt;empty&gt;" statement-count="101" statements-invoked="90" statement-rate="89.11">
+            <classes>
+                <class 
+                name="Area" filename="Area.scala" statement-count="31" statements-invoked="31" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/Area/area" statement-count="31" statements-invoked="31" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="469" end="478" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="179" end="228" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="309" end="358" line="9" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="489" end="514" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="275" end="303" line="9" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="137" end="567" line="7" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="439" end="440" line="10" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="117" end="126" line="5" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="195" end="200" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="357" end="358" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="181" end="190" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="325" end="330" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="391" end="440" line="10" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="583" end="614" line="15" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="309" end="358" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="201" end="226" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="515" end="516" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="275" end="303" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="112" end="113" line="5" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="535" end="559" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="407" end="412" line="10" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="467" end="516" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="258" end="273" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="393" end="402" line="10" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="413" end="438" line="10" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="311" end="320" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="104" end="126" line="5" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="583" end="614" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="331" end="356" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="483" end="488" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Area" class-type="Class" full-class-name="Area" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Area.scala" method="area" start="227" end="228" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="SquareQueue" filename="DoubleQueue.scala" statement-count="8" statements-invoked="8" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/SquareQueue/enqueue" statement-count="8" statements-invoked="8" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="SquareQueue" class-type="Class" full-class-name="SquareQueue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/DoubleQueue.scala" method="enqueue" start="310" end="338" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="SquareQueue" class-type="Class" full-class-name="SquareQueue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/DoubleQueue.scala" method="enqueue" start="365" end="370" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="SquareQueue" class-type="Class" full-class-name="SquareQueue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/DoubleQueue.scala" method="enqueue" start="377" end="389" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="SquareQueue" class-type="Class" full-class-name="SquareQueue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/DoubleQueue.scala" method="enqueue" start="343" end="372" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="SquareQueue" class-type="Class" full-class-name="SquareQueue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/DoubleQueue.scala" method="enqueue" start="320" end="337" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="SquareQueue" class-type="Class" full-class-name="SquareQueue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/DoubleQueue.scala" method="enqueue" start="370" end="371" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="SquareQueue" class-type="Class" full-class-name="SquareQueue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/DoubleQueue.scala" method="enqueue" start="351" end="371" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="SquareQueue" class-type="Class" full-class-name="SquareQueue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/DoubleQueue.scala" method="enqueue" start="353" end="365" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="Fibonacci" filename="Fibonacci.scala" statement-count="30" statements-invoked="30" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/Fibonacci/fiboSeries" statement-count="12" statements-invoked="12" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fiboSeries" start="320" end="330" line="24" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fiboSeries" start="118" end="149" line="8" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fiboSeries" start="186" end="193" line="12" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fiboSeries" start="230" end="240" line="16" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fiboSeries" start="230" end="240" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fiboSeries" start="303" end="313" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fiboSeries" start="118" end="149" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fiboSeries" start="186" end="193" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fiboSeries" start="213" end="221" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fiboSeries" start="101" end="109" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fiboSeries" start="276" end="295" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fiboSeries" start="169" end="177" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/Fibonacci/fibo" statement-count="18" statements-invoked="18" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fibo" start="166" end="778" line="11" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fibo" start="636" end="663" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fibo" start="498" end="510" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fibo" start="674" end="716" line="38" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fibo" start="762" end="772" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fibo" start="494" end="528" line="31" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fibo" start="494" end="528" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fibo" start="742" end="755" line="42" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fibo" start="649" end="663" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fibo" start="210" end="778" line="15" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fibo" start="703" end="715" line="38" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fibo" start="425" end="444" line="29" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fibo" start="437" end="444" line="29" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fibo" start="687" end="701" line="38" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fibo" start="514" end="528" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fibo" start="553" end="726" line="34" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fibo" start="257" end="778" line="19" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Fibonacci" class-type="Class" full-class-name="Fibonacci" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Fibonacci.scala" method="fibo" start="613" end="625" line="36" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="Sum" filename="Sum.scala" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/Sum/square" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Sum" class-type="Class" full-class-name="Sum" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Sum.scala" method="square" start="122" end="125" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/Sum/cube" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Sum" class-type="Class" full-class-name="Sum" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Sum.scala" method="cube" start="150" end="155" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/Sum/sum" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Sum" class-type="Class" full-class-name="Sum" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Sum.scala" method="sum" start="66" end="70" line="4" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Sum" class-type="Class" full-class-name="Sum" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Sum.scala" method="sum" start="59" end="70" line="4" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="Person" filename="Person.scala" statement-count="8" statements-invoked="8" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/Person/compare" statement-count="8" statements-invoked="8" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Person" class-type="Class" full-class-name="Person" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Person.scala" method="compare" start="244" end="260" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Person" class-type="Class" full-class-name="Person" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Person.scala" method="compare" start="207" end="215" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Person" class-type="Class" full-class-name="Person" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Person.scala" method="compare" start="198" end="215" line="6" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Person" class-type="Class" full-class-name="Person" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Person.scala" method="compare" start="225" end="260" line="7" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Person" class-type="Class" full-class-name="Person" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Person.scala" method="compare" start="174" end="196" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Person" class-type="Class" full-class-name="Person" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Person.scala" method="compare" start="187" end="196" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Person" class-type="Class" full-class-name="Person" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Person.scala" method="compare" start="198" end="215" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Person" class-type="Class" full-class-name="Person" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Person.scala" method="compare" start="225" end="260" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="Queue" filename="Queue.scala" statement-count="10" statements-invoked="1" statement-rate="10.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/Queue/dequeue" statement-count="9" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Queue" class-type="Trait" full-class-name="Queue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Queue.scala" method="dequeue" start="225" end="248" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Queue" class-type="Trait" full-class-name="Queue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Queue.scala" method="dequeue" start="223" end="266" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Queue" class-type="Trait" full-class-name="Queue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Queue.scala" method="dequeue" start="152" end="165" line="9" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Queue" class-type="Trait" full-class-name="Queue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Queue.scala" method="dequeue" start="174" end="199" line="11" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Queue" class-type="Trait" full-class-name="Queue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Queue.scala" method="dequeue" start="249" end="264" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Queue" class-type="Trait" full-class-name="Queue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Queue.scala" method="dequeue" start="215" end="267" line="13" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Queue" class-type="Trait" full-class-name="Queue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Queue.scala" method="dequeue" start="215" end="267" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Queue" class-type="Trait" full-class-name="Queue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Queue.scala" method="dequeue" start="174" end="199" line="11" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Queue" class-type="Trait" full-class-name="Queue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Queue.scala" method="dequeue" start="265" end="266" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/Queue/&lt;none&gt;" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Queue" class-type="Trait" full-class-name="Queue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Queue.scala" method="&lt;none&gt;" start="69" end="88" line="4" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="PersonTest" filename="Person.scala" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/PersonTest/&lt;none&gt;" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="PersonTest" class-type="Object" full-class-name="PersonTest" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Person.scala" method="&lt;none&gt;" start="311" end="333" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="PersonTest" class-type="Object" full-class-name="PersonTest" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/Person.scala" method="&lt;none&gt;" start="345" end="367" line="14" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="DoubleQueue" filename="DoubleQueue.scala" statement-count="8" statements-invoked="8" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/DoubleQueue/enqueue" statement-count="8" statements-invoked="8" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="DoubleQueue" class-type="Class" full-class-name="DoubleQueue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/DoubleQueue.scala" method="enqueue" start="148" end="162" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="DoubleQueue" class-type="Class" full-class-name="DoubleQueue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/DoubleQueue.scala" method="enqueue" start="195" end="196" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="DoubleQueue" class-type="Class" full-class-name="DoubleQueue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/DoubleQueue.scala" method="enqueue" start="168" end="197" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="DoubleQueue" class-type="Class" full-class-name="DoubleQueue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/DoubleQueue.scala" method="enqueue" start="178" end="190" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="DoubleQueue" class-type="Class" full-class-name="DoubleQueue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/DoubleQueue.scala" method="enqueue" start="176" end="196" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="DoubleQueue" class-type="Class" full-class-name="DoubleQueue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/DoubleQueue.scala" method="enqueue" start="190" end="195" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="DoubleQueue" class-type="Class" full-class-name="DoubleQueue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/DoubleQueue.scala" method="enqueue" start="202" end="214" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="DoubleQueue" class-type="Class" full-class-name="DoubleQueue" source="/home/knoldus/Documents/TDDAssigment/Scala-03/src/main/scala/DoubleQueue.scala" method="enqueue" start="139" end="163" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

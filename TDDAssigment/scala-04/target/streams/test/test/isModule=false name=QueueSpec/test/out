@@ -1,0 +1,5 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mQueueSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Doubling and Squaring 5 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  <(), the Unit value> did not equal List(50) (QueueSpec.scala:12)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Doubling and Squaring 3 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  <(), the Unit value> did not equal List(18) (QueueSpec.scala:17)[0m[0m

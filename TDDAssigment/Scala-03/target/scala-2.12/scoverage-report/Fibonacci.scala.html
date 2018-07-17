@@ -1,0 +1,779 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          Fibonacci.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>import scala.annotation.tailrec
+</span>2 <span style=''>
+</span>3 <span style=''>class Fibonacci {
+</span>4 <span style=''>
+</span>5 <span style=''>  def fiboSeries(num: Int): List[Int] ={
+</span>6 <span style=''>
+</span>7 <span style=''>    if(</span><span style='background: #AEF1AE'>num &lt;= 0</span><span style=''>){
+</span>8 <span style=''>      </span><span style='background: #AEF1AE'>throw new ArithmeticException()</span><span style=''>
+</span>9 <span style=''>    }
+</span>10 <span style=''>
+</span>11 <span style=''>    else </span><span style='background: #AEF1AE'>if(num == 1){
+</span>12 <span style=''></span><span style='background: #AEF1AE'>      List(0)
+</span>13 <span style=''></span><span style='background: #AEF1AE'>    }
+</span>14 <span style=''></span><span style='background: #AEF1AE'>
+</span>15 <span style=''></span><span style='background: #AEF1AE'>    else if(num == 2){
+</span>16 <span style=''></span><span style='background: #AEF1AE'>      List(0, 1)
+</span>17 <span style=''></span><span style='background: #AEF1AE'>    }
+</span>18 <span style=''></span><span style='background: #AEF1AE'>
+</span>19 <span style=''></span><span style='background: #AEF1AE'>    else {
+</span>20 <span style=''></span><span style='background: #AEF1AE'>
+</span>21 <span style=''></span><span style='background: #AEF1AE'>      val arr = new Array[Int](num)
+</span>22 <span style=''></span><span style='background: #AEF1AE'>
+</span>23 <span style=''></span><span style='background: #AEF1AE'>      arr(0) = 0
+</span>24 <span style=''></span><span style='background: #AEF1AE'>      arr(1) = 1
+</span>25 <span style=''></span><span style='background: #AEF1AE'>
+</span>26 <span style=''></span><span style='background: #AEF1AE'>      @tailrec
+</span>27 <span style=''></span><span style='background: #AEF1AE'>      def fibo(first: Int, second: Int, iterator: Int): Unit = {
+</span>28 <span style=''></span><span style='background: #AEF1AE'>
+</span>29 <span style=''></span><span style='background: #AEF1AE'>        if (iterator == num - 3) {
+</span>30 <span style=''></span><span style='background: #AEF1AE'>          //println(first + second)
+</span>31 <span style=''></span><span style='background: #AEF1AE'>          arr(iterator + 2) = first + second
+</span>32 <span style=''></span><span style='background: #AEF1AE'>
+</span>33 <span style=''></span><span style='background: #AEF1AE'>        }
+</span>34 <span style=''></span><span style='background: #AEF1AE'>        else {
+</span>35 <span style=''></span><span style='background: #AEF1AE'>          //println(first + second)
+</span>36 <span style=''></span><span style='background: #AEF1AE'>          val index = iterator + 2
+</span>37 <span style=''></span><span style='background: #AEF1AE'>          arr(index) = first + second
+</span>38 <span style=''></span><span style='background: #AEF1AE'>          fibo(second, first + second, iterator + 1)
+</span>39 <span style=''></span><span style='background: #AEF1AE'>        }
+</span>40 <span style=''></span><span style='background: #AEF1AE'>      }
+</span>41 <span style=''></span><span style='background: #AEF1AE'>
+</span>42 <span style=''></span><span style='background: #AEF1AE'>      fibo(0, 1, 0)
+</span>43 <span style=''></span><span style='background: #AEF1AE'>      arr.toList
+</span>44 <span style=''></span><span style='background: #AEF1AE'>    }</span><span style=''>
+</span>45 <span style=''>  }
+</span>46 <span style=''>
+</span>47 <span style=''>  ///* println(&quot;Enter n:&quot;)
+</span>48 <span style=''>  // val n = scala.io.StdIn.readInt()
+</span>49 <span style=''>  // val result = fiboSeries(n).toString
+</span>50 <span style=''>  // //result.foreach(println(_))
+</span>51 <span style=''>  // println(result)
+</span>52 <span style=''>
+</span>53 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          7
+        </td>
+        <td>
+          48
+        </td>
+        <td>
+          101
+          -
+          109
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.&lt;=
+        </td>
+        <td style="background: #AEF1AE">
+          num.&lt;=(0)
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          50
+        </td>
+        <td>
+          118
+          -
+          149
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          throw new java.lang.ArithmeticException()
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          49
+        </td>
+        <td>
+          118
+          -
+          149
+        </td>
+        <td>
+          Throw
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          throw new java.lang.ArithmeticException()
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          77
+        </td>
+        <td>
+          166
+          -
+          778
+        </td>
+        <td>
+          If
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          if (num.==(1))
+  scala.collection.immutable.List.apply[Int](0)
+else
+  if (num.==(2))
+    scala.collection.immutable.List.apply[Int](0, 1)
+  else
+    {
+      val arr: Array[Int] = new Array[Int](num);
+      arr.update(0, 0);
+      arr.update(1, 1);
+      @scala.annotation.tailrec def fibo(first: Int, second: Int, iterator: Int): Unit = if (iterator.==(num.-(3)))
+        arr.update(iterator.+(2), first.+(second))
+      else
+        {
+          val index: Int = iterator.+(2);
+          arr.update(index, first.+(second));
+          fibo(second, first.+(second), iterator.+(1))
+        };
+      fibo(0, 1, 0);
+      scala.Predef.intArrayOps(arr).toList
+    }
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          51
+        </td>
+        <td>
+          169
+          -
+          177
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.==
+        </td>
+        <td style="background: #AEF1AE">
+          num.==(1)
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          53
+        </td>
+        <td>
+          186
+          -
+          193
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          scala.collection.immutable.List.apply
+        </td>
+        <td style="background: #AEF1AE">
+          scala.collection.immutable.List.apply[Int](0)
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          52
+        </td>
+        <td>
+          186
+          -
+          193
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.immutable.List.apply
+        </td>
+        <td style="background: #AEF1AE">
+          scala.collection.immutable.List.apply[Int](0)
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          76
+        </td>
+        <td>
+          210
+          -
+          778
+        </td>
+        <td>
+          If
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          if (num.==(2))
+  scala.collection.immutable.List.apply[Int](0, 1)
+else
+  {
+    val arr: Array[Int] = new Array[Int](num);
+    arr.update(0, 0);
+    arr.update(1, 1);
+    @scala.annotation.tailrec def fibo(first: Int, second: Int, iterator: Int): Unit = if (iterator.==(num.-(3)))
+      arr.update(iterator.+(2), first.+(second))
+    else
+      {
+        val index: Int = iterator.+(2);
+        arr.update(index, first.+(second));
+        fibo(second, first.+(second), iterator.+(1))
+      };
+    fibo(0, 1, 0);
+    scala.Predef.intArrayOps(arr).toList
+  }
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          54
+        </td>
+        <td>
+          213
+          -
+          221
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.==
+        </td>
+        <td style="background: #AEF1AE">
+          num.==(2)
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          56
+        </td>
+        <td>
+          230
+          -
+          240
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          scala.collection.immutable.List.apply
+        </td>
+        <td style="background: #AEF1AE">
+          scala.collection.immutable.List.apply[Int](0, 1)
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          55
+        </td>
+        <td>
+          230
+          -
+          240
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.immutable.List.apply
+        </td>
+        <td style="background: #AEF1AE">
+          scala.collection.immutable.List.apply[Int](0, 1)
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          75
+        </td>
+        <td>
+          257
+          -
+          778
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          {
+  val arr: Array[Int] = new Array[Int](num);
+  arr.update(0, 0);
+  arr.update(1, 1);
+  @scala.annotation.tailrec def fibo(first: Int, second: Int, iterator: Int): Unit = if (iterator.==(num.-(3)))
+    arr.update(iterator.+(2), first.+(second))
+  else
+    {
+      val index: Int = iterator.+(2);
+      arr.update(index, first.+(second));
+      fibo(second, first.+(second), iterator.+(1))
+    };
+  fibo(0, 1, 0);
+  scala.Predef.intArrayOps(arr).toList
+}
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          57
+        </td>
+        <td>
+          276
+          -
+          295
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Array.&lt;init&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          new Array[Int](num)
+        </td>
+      </tr><tr>
+        <td>
+          23
+        </td>
+        <td>
+          58
+        </td>
+        <td>
+          303
+          -
+          313
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Array.update
+        </td>
+        <td style="background: #AEF1AE">
+          arr.update(0, 0)
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          59
+        </td>
+        <td>
+          320
+          -
+          330
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Array.update
+        </td>
+        <td style="background: #AEF1AE">
+          arr.update(1, 1)
+        </td>
+      </tr><tr>
+        <td>
+          29
+        </td>
+        <td>
+          61
+        </td>
+        <td>
+          425
+          -
+          444
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.==
+        </td>
+        <td style="background: #AEF1AE">
+          iterator.==(num.-(3))
+        </td>
+      </tr><tr>
+        <td>
+          29
+        </td>
+        <td>
+          60
+        </td>
+        <td>
+          437
+          -
+          444
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.-
+        </td>
+        <td style="background: #AEF1AE">
+          num.-(3)
+        </td>
+      </tr><tr>
+        <td>
+          31
+        </td>
+        <td>
+          62
+        </td>
+        <td>
+          498
+          -
+          510
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.+
+        </td>
+        <td style="background: #AEF1AE">
+          iterator.+(2)
+        </td>
+      </tr><tr>
+        <td>
+          31
+        </td>
+        <td>
+          65
+        </td>
+        <td>
+          494
+          -
+          528
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          scala.Array.update
+        </td>
+        <td style="background: #AEF1AE">
+          arr.update(iterator.+(2), first.+(second))
+        </td>
+      </tr><tr>
+        <td>
+          31
+        </td>
+        <td>
+          64
+        </td>
+        <td>
+          494
+          -
+          528
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Array.update
+        </td>
+        <td style="background: #AEF1AE">
+          arr.update(iterator.+(2), first.+(second))
+        </td>
+      </tr><tr>
+        <td>
+          31
+        </td>
+        <td>
+          63
+        </td>
+        <td>
+          514
+          -
+          528
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.+
+        </td>
+        <td style="background: #AEF1AE">
+          first.+(second)
+        </td>
+      </tr><tr>
+        <td>
+          34
+        </td>
+        <td>
+          72
+        </td>
+        <td>
+          553
+          -
+          726
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          {
+  val index: Int = iterator.+(2);
+  arr.update(index, first.+(second));
+  fibo(second, first.+(second), iterator.+(1))
+}
+        </td>
+      </tr><tr>
+        <td>
+          36
+        </td>
+        <td>
+          66
+        </td>
+        <td>
+          613
+          -
+          625
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.+
+        </td>
+        <td style="background: #AEF1AE">
+          iterator.+(2)
+        </td>
+      </tr><tr>
+        <td>
+          37
+        </td>
+        <td>
+          68
+        </td>
+        <td>
+          636
+          -
+          663
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Array.update
+        </td>
+        <td style="background: #AEF1AE">
+          arr.update(index, first.+(second))
+        </td>
+      </tr><tr>
+        <td>
+          37
+        </td>
+        <td>
+          67
+        </td>
+        <td>
+          649
+          -
+          663
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.+
+        </td>
+        <td style="background: #AEF1AE">
+          first.+(second)
+        </td>
+      </tr><tr>
+        <td>
+          38
+        </td>
+        <td>
+          71
+        </td>
+        <td>
+          674
+          -
+          716
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          Fibonacci.fibo
+        </td>
+        <td style="background: #AEF1AE">
+          fibo(second, first.+(second), iterator.+(1))
+        </td>
+      </tr><tr>
+        <td>
+          38
+        </td>
+        <td>
+          70
+        </td>
+        <td>
+          703
+          -
+          715
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.+
+        </td>
+        <td style="background: #AEF1AE">
+          iterator.+(1)
+        </td>
+      </tr><tr>
+        <td>
+          38
+        </td>
+        <td>
+          69
+        </td>
+        <td>
+          687
+          -
+          701
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.+
+        </td>
+        <td style="background: #AEF1AE">
+          first.+(second)
+        </td>
+      </tr><tr>
+        <td>
+          42
+        </td>
+        <td>
+          73
+        </td>
+        <td>
+          742
+          -
+          755
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          Fibonacci.fibo
+        </td>
+        <td style="background: #AEF1AE">
+          fibo(0, 1, 0)
+        </td>
+      </tr><tr>
+        <td>
+          43
+        </td>
+        <td>
+          74
+        </td>
+        <td>
+          762
+          -
+          772
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          scala.collection.TraversableOnce.toList
+        </td>
+        <td style="background: #AEF1AE">
+          scala.Predef.intArrayOps(arr).toList
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>
